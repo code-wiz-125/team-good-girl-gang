@@ -1,0 +1,19 @@
+March-6 Entry:
+
+Hi everyone! I'm pumped to start coding!
+
+I just want to remind you that if you are having trouble starting, 
+Kody provided a guide for us and what we need to incorporate onto our pages. 
+You can find this guide in the Classroom under the post titled 
+"YWeb Instructor posted a new material: Team Project 1" posted on March 3rd. 
+If you are still having trouble, please let me know!
+
+
+Below is what everyone has been assigned:
+
+LeeLee: Leadership.html & stylesheet
+Brittney: Contact.html
+Rama: Hours.html
+Kenia: Index.html
+
+-KENIA
