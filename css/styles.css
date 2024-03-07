@@ -1,19 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* COLORS */
 
 /* INDEX CSS */
 .header-nav {
-    list-style-type: none;
-    text-align: center;
-    
+  list-style-type: none;
+  text-align: center;
 }
 
 .header-nav li {
-    display: inline-block;
-    padding: 20px;
+  display: inline-block;
+  padding: 20px;
 }
 
+/*LEADERSHIP CSS*/
+.kenia-section {
+  background-color: lightgreen;
+}
+
+.leelee-section {
+  background-color: pink;
+}
+.brittney-section {
+  background-color: white;
+}
+.rama-section {
+  background-color: lightblue;
+}
