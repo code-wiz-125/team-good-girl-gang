@@ -1,11 +1,11 @@
+/* COLORS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* COLORS */
 
-/* INDEX CSS */
 .header-nav {
   list-style-type: none;
   text-align: center;
@@ -16,17 +16,76 @@
   padding: 20px;
 }
 
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-img {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+/* INDEX CSS */
+
+.header {
+  background-image: ;
+}
+
 /*LEADERSHIP CSS*/
+
+.leadership-header {
+  background-image: ;
+}
+
 .kenia-section {
   background-color: lightgreen;
+
 }
 
 .leelee-section {
   background-color: pink;
+
 }
+
 .brittney-section {
   background-color: white;
+
 }
 .rama-section {
   background-color: lightblue;
+
+}
+
+section {
+    width: 25%;
+    float: left;
+    padding: 25px;
+    text-align: center;
+    border: dotted black;
+}
+
+section {
+    height: fit-content;
+    
+}
+
+.picsec {
+    width: 100px;
+
+}
+
+/* HOURS CSS */
+
+.hours-header {
+  background-image: ;
+}
+
+/* CONTACT CSS */
+
+.contact-header {
+  background-image: ;
 }
