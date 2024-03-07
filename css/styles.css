@@ -68,6 +68,11 @@ section {
     border: dotted black;
 }
 
+section {
+    height: fit-content;
+    
+}
+
 .picsec {
     width: 100px;
 
