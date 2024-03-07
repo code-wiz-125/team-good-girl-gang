@@ -19,14 +19,32 @@
 /*LEADERSHIP CSS*/
 .kenia-section {
   background-color: lightgreen;
+
 }
 
 .leelee-section {
   background-color: pink;
+
 }
+
 .brittney-section {
   background-color: white;
+
 }
 .rama-section {
   background-color: lightblue;
+
+}
+
+section {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    border: solid black;
+}
+
+.picsec {
+    width: 100px;
+
 }
