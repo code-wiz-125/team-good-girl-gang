@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.header {
+
+}
+
 .header-nav {
   list-style-type: none;
   text-align: center;
@@ -29,7 +33,15 @@
     margin-bottom: 5px;
 }
 
+.logo {
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
 
+.button {
+  
+}
 
 /* INDEX CSS */
 
