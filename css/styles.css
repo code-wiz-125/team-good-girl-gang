@@ -29,11 +29,15 @@
     margin-bottom: 5px;
 }
 
+
+
 /* INDEX CSS */
 
 .header {
   background-image: ;
 }
+
+
 
 /*LEADERSHIP CSS*/
 
@@ -41,26 +45,27 @@
   background-image: ;
 }
 
-.kenia-section {
+#kenia-section {
   background-color: lightgreen;
 
 }
 
-.leelee-section {
+#leelee-section {
   background-color: pink;
 
 }
 
-.brittney-section {
+#brittney-section {
   background-color: white;
 
 }
-.rama-section {
+
+#rama-section {
   background-color: lightblue;
 
 }
 
-section {
+section.leadership-section {
     width: 25%;
     float: left;
     padding: 25px;
@@ -68,21 +73,21 @@ section {
     border: dotted black;
 }
 
-section {
-    height: fit-content;
-    
-}
 
 .picsec {
     width: 100px;
 
 }
 
+
+
 /* HOURS CSS */
 
 .hours-header {
   background-image: ;
 }
+
+
 
 /* CONTACT CSS */
 
