@@ -5,9 +5,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
+This .header css below is applied to all page headers. 
+If you do not like the height edit, lets
+together to find something we all like.
+*/
 .header {
-
+  height: 600px;
+  text-align: center;
 }
 
 .header-nav {
@@ -21,35 +26,35 @@
 }
 
 .footer {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .footer-img {
-    height: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
 }
 
 .logo {
-    position: absolute;
-    left: 120px;
-    top: 10px;
+  position: absolute;
+  left: 120px;
+  top: 10px;
 }
 
 .button {
-  
 }
 
 /* INDEX CSS */
 
 .index-header {
-  background-image: ;
+  background-image: url(/images/index-header.png);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
-
-
 
 /*LEADERSHIP CSS*/
 
@@ -59,39 +64,31 @@
 
 #kenia-section {
   background-color: lightgreen;
-
 }
 
 #leelee-section {
   background-color: pink;
-
 }
 
 #brittney-section {
   background-color: white;
-
 }
 
 #rama-section {
   background-color: lightblue;
-
 }
 
 section.leadership-section {
-    width: 25%;
-    float: left;
-    padding: 25px;
-    text-align: center;
-    border: dotted black;
+  width: 25%;
+  float: left;
+  padding: 25px;
+  text-align: center;
+  border: dotted black;
 }
-
 
 .picsec {
-    width: 100px;
-
+  width: 100px;
 }
-
-
 
 /* HOURS CSS */
 
@@ -99,10 +96,8 @@ section.leadership-section {
   background-image: ;
 }
 
-
-
 /* CONTACT CSS */
 
 .contact-header {
-  background-image:url("/images/Power-Contact-header1.png") ;
+  background-image: url("/images/Power-Contact-header1.png");
 }
