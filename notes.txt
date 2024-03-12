@@ -1,3 +1,13 @@
+March 7 Entry:
+
+Hey guys, just a heads up - in the stylesheet you will see sections for page's CSS labeled with comments. 
+Within your page's CSS section, I have added a class for your page's header so you can add the image you want as your header.
+For example, the header class for my page is .header , for leadership page the class is .leadership-header ...ETC.
+
+Let me know if you have questions!
+
+-KENIA
+
 March-6 Entry:
 
 Hi everyone! I'm pumped to start coding!
