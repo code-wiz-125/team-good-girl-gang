@@ -23,7 +23,6 @@ together to find something we all like.
 a {
   text-decoration: none;
   color: #121212;
-  
 }
 
 a.nav:hover {
@@ -54,7 +53,7 @@ a.nav-4:hover {
 .header-nav li {
   display: inline-block;
   padding: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .footer {
@@ -84,7 +83,6 @@ a.nav-4:hover {
 }
 
 .button {
-  
 }
 
 /* INDEX CSS */
@@ -101,7 +99,7 @@ h2 {
 }
 
 p.index {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   position: relative;
   top: 200px;
@@ -120,29 +118,33 @@ video {
 /*LEADERSHIP CSS*/
 
 .leadership-header {
-  background-image: url(/images/ppg_leadership_header.png);
+  background-image: url("/images/ppg_leadership_header.png");
+  background-size: contain;
+  height: 200px;
 }
 
-#kenia-section {
+#kenia-section :hover {
   background-color: lightgreen;
   margin: 10px;
+  height: fit-content;
 }
 
-#leelee-section {
+#leelee-section :hover {
   background-color: pink;
-
   margin: 10px;
+  height: fit-content
 }
 
-#brittney-section {
-  background-color: white;
-
+#brittney-section :hover {
+  background-color: lavender;
   margin: 10px;
+  height: fit-content;
 }
 
-#rama-section {
+#rama-section :hover {
   background-color: lightblue;
   margin: 10px;
+  height: fit-content;
 }
 
 section.leadership-section {
