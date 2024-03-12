@@ -23,7 +23,6 @@ together to find something we all like.
 a {
   text-decoration: none;
   color: #121212;
-  
 }
 
 a.nav:hover {
@@ -54,7 +53,7 @@ a.nav-4:hover {
 .header-nav li {
   display: inline-block;
   padding: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .footer {
@@ -84,7 +83,6 @@ a.nav-4:hover {
 }
 
 .button {
-  
 }
 
 /* INDEX CSS */
@@ -101,7 +99,7 @@ h2 {
 }
 
 p.index {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   position: relative;
   top: 200px;
@@ -169,5 +167,11 @@ footer {
 /* CONTACT CSS */
 
 .contact-header {
-  background-image: url("/images/Power-Contact-header1.png");
+  background-image: url("/images/Power-Phone.gif"),
+    url("/images/Power-contact-header3.jpg");
+  background-repeat: no-repeat;
+  background-position: right, center;
+  background-size: 300px, cover;
 }
+
+/* END OF CONTACT CSS */
