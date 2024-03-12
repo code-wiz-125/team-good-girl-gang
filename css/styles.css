@@ -119,45 +119,68 @@ video {
 
 .leadership-header {
   background-image: url("/images/ppg_leadership_header.png");
-  background-size: contain;
-  height: 200px;
+  background-size: cover;
+  height: 600px;
+  color: #ff007c;
+  text-align: center;
+  background-repeat: no-repeat;
 }
 
-#kenia-section :hover {
+#kenia-section {
   background-color: lightgreen;
   margin: 10px;
   height: fit-content;
+  padding: 20px;
 }
 
-#leelee-section :hover {
+#leelee-section {
   background-color: pink;
   margin: 10px;
-  height: fit-content
+  height: fit-content;
+  padding: 20px;
 }
 
-#brittney-section :hover {
+#brittney-section {
   background-color: lavender;
   margin: 10px;
   height: fit-content;
+  padding: 20px;
 }
 
-#rama-section :hover {
+#rama-section {
   background-color: lightblue;
   margin: 10px;
   height: fit-content;
+  padding: 20px;
 }
 
-section.leadership-section {
-  width: 25%;
+.leadership-section {
+  width: 250px;
   float: left;
-  padding-left: 5px;
+  padding-left: 50px 50px;
   text-align: center;
   border: dotted black;
 }
 
 .picsec {
-  width: 100px;
+  width: 200px;
+  height: 250px;
 }
+
+
+h1 {
+  text-align: center;
+}
+
+.leadership-button {
+ text-decoration: underline;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-style: groove;
+  border-color: yellow;
+}
+
 
 footer {
   clear: both;

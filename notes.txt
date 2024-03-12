@@ -27,3 +27,11 @@ Rama: Hours.html
 Kenia: Index.html
 
 -KENIA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+I discovered "hover" through
+serching through my amazing manager's section 
+noticing that she has added it to the nav bar
+
+-LeeLee
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
