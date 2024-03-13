@@ -155,11 +155,13 @@ video {
 }
 
 .leadership-section {
-  width: 250px;
+  width: 295px;
   float: left;
   padding-left: 50px 50px;
   text-align: center;
   border: dotted black;
+  margin: 50px;
+  border-radius: 50px;
 }
 
 .picsec {
@@ -173,12 +175,18 @@ h1 {
 }
 
 .leadership-button {
- text-decoration: underline;
   padding: 10px;
   margin: 10px;
   border: none;
-  border-style: groove;
-  border-color: yellow;
+border-style: hidden;
+background-color: gold;
+  width: 250px;
+  border-radius: 0 50px;
+}
+
+button:hover {
+  color: red;
+  text-decoration: underline;
 }
 
 
