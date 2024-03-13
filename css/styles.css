@@ -169,6 +169,14 @@ video {
   height: 250px;
 }
 
+#leadership-pic1 {
+  border-radius: 0 100px;
+}
+
+#leadership-pic {
+  border-radius: 100px 0;
+}
+
 .leadership-button {
   padding: 10px;
   margin: 10px;
@@ -176,12 +184,13 @@ video {
 border-style: hidden;
 background-color: gold;
   width: 250px;
-  border-radius: 0 50px;
+  border-radius: 0;
 }
 
 button:hover {
   color: red;
   text-decoration: underline;
+  background-color: white;
 }
 
 .leadership-title {
@@ -193,10 +202,6 @@ border-style:double;
 text-align: center;
 }
 
-
-footer {
-  clear: both;
-}
 
 /* HOURS CSS */
 
@@ -216,3 +221,11 @@ footer {
 
 
 /* END OF CONTACT CSS */
+
+/* THIS IS START OF FOOTER */
+
+footer {
+  clear: both;
+}
+
+/* THIS IS END OF FOOTER */
