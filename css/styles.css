@@ -20,34 +20,16 @@ together to find something we all like.
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: #121212;
-}
-
-a.nav:hover {
-  color: #ff007c;
-  font-size: larger;
-}
-
-a.nav-1:hover {
-  color: greenyellow;
-  font-size: larger;
-}
-
-a.nav-2:hover {
-  color: #9ee1fa;
-  font-size: larger;
-}
-
-a.nav-3:hover {
-  color: greenyellow;
-  font-size: larger;
-}
-
-a.nav-4:hover {
-  color: #ff007c;
-  font-size: larger;
+a.logo > img {
+  width: 250px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  /* height: 70px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px; */
 }
 
 .header-nav li {
@@ -56,30 +38,55 @@ a.nav-4:hover {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+a {
+  text-decoration: none;
+  color: #121212;
+}
+
+a.nav:hover {
+  color: #ff007c;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+a.nav-1:hover {
+  color: greenyellow;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+a.nav-2:hover {
+  color: #9ee1fa;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+a.nav-3:hover {
+  color: greenyellow;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+a.nav-4:hover {
+  color: #ff007c;
+  font-size: larger;
+  text-decoration: underline;
+}
+
 .footer {
   text-align: center;
   margin-bottom: 10px;
 }
 
 .footer-img {
-  height: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px;
-}
-
-.logo {
-  position: absolute;
-  left: 120px;
-  top: 10px;
+  height: 20px;
   background-color: black;
   box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
   --shadow-color: hsl(220deg 60% 50%);
   padding: 1px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .button {
@@ -90,30 +97,40 @@ a.nav-4:hover {
 .index-header {
   background-image: url(/images/index-header.png);
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 25px;
+  padding: 30px;
+  letter-spacing: 15px;
 }
 
 p.index {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   position: relative;
-  top: 200px;
+  top: 150px; */
 }
 
 .about-section {
   height: 400px;
 }
 
+section.about-section > h1 {
+  margin-bottom: 15px;
+}
+
+
 video {
   border: 5px solid greenyellow;
   border-radius: 50px;
   margin: 15px;
+  float: left;
 }
+
+
 
 /*LEADERSHIP CSS*/
 
@@ -167,20 +184,18 @@ video {
   height: 250px;
 }
 
-
 h1 {
   text-align: center;
 }
 
 .leadership-button {
- text-decoration: underline;
+  text-decoration: underline;
   padding: 10px;
   margin: 10px;
   border: none;
   border-style: groove;
   border-color: yellow;
 }
-
 
 footer {
   clear: both;
