@@ -176,12 +176,13 @@ video {
 border-style: hidden;
 background-color: gold;
   width: 250px;
-  border-radius: 0 50px;
+  border-radius: 0;
 }
 
 button:hover {
   color: red;
   text-decoration: underline;
+  background-color: white;
 }
 
 .leadership-title {
