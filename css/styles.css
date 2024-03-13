@@ -169,6 +169,14 @@ video {
   height: 250px;
 }
 
+#leadership-pic1 {
+  border-radius: 0 100px;
+}
+
+#leadership-pic {
+  border-radius: 100px 0;
+}
+
 .leadership-button {
   padding: 10px;
   margin: 10px;
