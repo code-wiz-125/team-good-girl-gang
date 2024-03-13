@@ -167,20 +167,18 @@ video {
   height: 250px;
 }
 
-
 h1 {
   text-align: center;
 }
 
 .leadership-button {
- text-decoration: underline;
+  text-decoration: underline;
   padding: 10px;
   margin: 10px;
   border: none;
   border-style: groove;
   border-color: yellow;
 }
-
 
 footer {
   clear: both;
@@ -200,5 +198,22 @@ footer {
   background-position: right, center;
   background-size: 300px, cover;
 }
+.container
+.input1[type=text] {
+width: 50%;
+padding: 12px;
+border: 1px solid #060b21;
+border-radius: 4px;
+}
+.input2[type=text] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #060b21;
+  border-radius: 4px;
+  }
+  
+  .button1 {
+    background-color: pink;
+  }
 
 /* END OF CONTACT CSS */
