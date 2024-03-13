@@ -195,10 +195,6 @@ text-align: center;
 }
 
 
-footer {
-  clear: both;
-}
-
 /* HOURS CSS */
 
 .hours-header {
@@ -217,3 +213,11 @@ footer {
 
 
 /* END OF CONTACT CSS */
+
+/* THIS IS START OF FOOTER */
+
+footer {
+  clear: both;
+}
+
+/* THIS IS END OF FOOTER */
