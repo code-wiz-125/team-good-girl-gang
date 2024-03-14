@@ -221,8 +221,17 @@ button:hover {
 /* HOURS CSS */
 
 .hours-header {
+background-image: url("/images/hours-header.png");
+height: 450px;
 }
-
+.hours-table > tr, th, td {
+  border: 1px solid #121212;
+  border-collapse: collapse;
+}
+table {
+  width: 80%;
+  text-align: center;
+}
 /* CONTACT CSS */
 
 .contact-header {
