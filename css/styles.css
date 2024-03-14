@@ -186,13 +186,12 @@ video {
   height: 250px;
 }
 
-
 #leadership-pic {
   border-radius: 100px 0;
 }
 
 .leadership-button {
- text-decoration: underline;
+  text-decoration: underline;
   padding: 10px;
   margin: 10px;
   border: none;
@@ -207,7 +206,6 @@ button:hover {
   text-decoration: underline;
   background-color: white;
 }
-
 
 footer {
   clear: both;
@@ -228,8 +226,6 @@ footer {
   background-position: right, center;
   background-size: 300px, cover;
 }
-
-
 
 /* END OF CONTACT CSS */
 
