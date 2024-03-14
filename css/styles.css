@@ -302,6 +302,13 @@ th {
   background-position: right, center;
   background-size: 300px, cover;
 }
+
+.form-contact {
+  border-radius: 5px;
+  background-color: rgb(207, 244, 207);
+  padding: 20px;
+  width: 60%;
+}
 .input1[type="text"] {
   width: 100%;
   padding: 12px 20px;
@@ -319,8 +326,33 @@ th {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  cursor: pointer;
 }
-.button1 {
+
+.problem-options select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #d02929;
+  cursor: pointer;
+}
+/* .problem-options {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  min-width: 100px;
+  position: relative;
+}
+
+.options {
+  width: 100%;
+  padding: 0 30px 0 15px;
+  appearance: none;
+  border: none;
+  color: white;
+  background-color: pink;
+} */
+.button-contact {
   background-color: #f6b1d2;
   border: none;
   color: white;
