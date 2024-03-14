@@ -196,13 +196,12 @@ video {
   height: 250px;
 }
 
-
 #leadership-pic {
   border-radius: 100px 0;
 }
 
 .leadership-button {
- text-decoration: underline;
+  text-decoration: underline;
   padding: 10px;
   margin: 10px;
   border: none;
@@ -217,6 +216,7 @@ button:hover {
   text-decoration: underline;
   background-color: white;
 }
+
 
 /* HOURS CSS */
 
