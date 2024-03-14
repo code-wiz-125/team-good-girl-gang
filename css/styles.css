@@ -1,4 +1,10 @@
-/* COLORS */
+/* COLORS 
+
+lightgreen
+#f6b1d2
+#9ee1fa
+
+*/
 
 * {
   margin: 0;
@@ -23,19 +29,15 @@ together to find something we all like.
 a.logo > img {
   width: 250px;
   position: absolute;
-  top: 10px;
+  top: 5px;
   left: 50px;
-  /* height: 70px;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5px; */
 }
 
 .header-nav li {
   display: inline-block;
-  padding: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 a {
@@ -44,13 +46,13 @@ a {
 }
 
 a.nav:hover {
-  color: #ff007c;
+  color: #f6b1d2;
   font-size: larger;
   text-decoration: underline;
 }
 
 a.nav-1:hover {
-  color: greenyellow;
+  color: lightgreen;
   font-size: larger;
   text-decoration: underline;
 }
@@ -62,13 +64,13 @@ a.nav-2:hover {
 }
 
 a.nav-3:hover {
-  color: greenyellow;
+  color: lightgreen;
   font-size: larger;
   text-decoration: underline;
 }
 
 a.nav-4:hover {
-  color: #ff007c;
+  color: #f6b1d2;
   font-size: larger;
   text-decoration: underline;
 }
@@ -95,27 +97,32 @@ a.nav-4:hover {
 /* INDEX CSS */
 
 .index-header {
-  background-image: url(/images/index-header.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+  url(/images/index-header.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 h2 {
-  font-size: 25px;
-  padding: 30px;
-  letter-spacing: 15px;
+  font-size: 30px;
+  font-style: oblique;
+  margin-top: 25px;
+  letter-spacing: 10px;
 }
 
 p.index {
-  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
+  font-size: 20px;
   position: relative;
-  top: 150px; */
+  top: 170px;
 }
 
 .about-section {
+  display: block;
   height: 400px;
+  padding: 20px;
 }
 
 .about-title {
@@ -124,10 +131,44 @@ p.index {
 }
 
 video {
-  border: 5px solid greenyellow;
+  border: 5px solid lightgreen;
+  width: 500px;
   border-radius: 50px;
   margin: 15px;
   float: left;
+}
+
+p.about-us {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: 1200px;
+  text-align: left;
+  display: block;
+  margin-block-start: 8em;
+}
+
+.services-h1 {
+  text-align: center;
+}
+
+.services-p {
+  text-align: center;
+}
+
+.index-table {
+  border-collapse: collapse;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0.5px 0.5px 3px #333;
+}
+
+th.index-th {
+  background-color: #f6b1d2;
+}
+
+tr.index-tr:nth-child(even) {
+  background-color: #9ee1fa;
 }
 
 /*LEADERSHIP CSS*/
@@ -222,10 +263,12 @@ footer {
 /* HOURS CSS */
 
 .hours-header {
-background-image: url("/images/hours-header.png");
-height: 450px;
+  background-image: url("/images/hours-header.png");
+  height: 450px;
 }
-.hours-table > tr, th, td {
+.hours-table > tr,
+th,
+td {
   border: 1px solid #121212;
   border-collapse: collapse;
 }
