@@ -118,8 +118,9 @@ p.index {
   height: 400px;
 }
 
-section.about-section > h1 {
+.about-title {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 
