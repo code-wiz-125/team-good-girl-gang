@@ -144,39 +144,41 @@ video {
 }
 
 #kenia-section {
-  background-color: lightgreen;
+  background-color: olivedrab;
   margin: 10px;
   height: fit-content;
   padding: 20px;
 }
 
 #leelee-section {
-  background-color: pink;
+  background-color: palevioletred;
   margin: 10px;
   height: fit-content;
   padding: 20px;
 }
 
 #brittney-section {
-  background-color: lavender;
+  background-color: violet;
   margin: 10px;
   height: fit-content;
   padding: 20px;
 }
 
 #rama-section {
-  background-color: lightblue;
+  background-color: skyblue;
   margin: 10px;
   height: fit-content;
   padding: 20px;
 }
 
 .leadership-section {
-  width: 250px;
+  width: 295px;
   float: left;
   padding-left: 50px 50px;
   text-align: center;
   border: dotted black;
+  margin: 100px;
+  border-radius: 50px;
 }
 
 .picsec {
@@ -184,22 +186,33 @@ video {
   height: 250px;
 }
 
-h1 {
-  text-align: center;
+
+#leadership-pic {
+  border-radius: 100px 0;
 }
 
 .leadership-button {
-  text-decoration: underline;
+ text-decoration: underline;
   padding: 10px;
   margin: 10px;
   border: none;
-  border-style: groove;
-  border-color: yellow;
+border-style: hidden;
+background-color: gold;
+  width: 250px;
+  border-radius: 0;
 }
+
+button:hover {
+  color: red;
+  text-decoration: underline;
+  background-color: white;
+}
+
 
 footer {
   clear: both;
 }
+
 
 /* HOURS CSS */
 
@@ -216,4 +229,14 @@ footer {
   background-size: 300px, cover;
 }
 
+
+
 /* END OF CONTACT CSS */
+
+/* THIS IS START OF FOOTER */
+
+footer {
+  clear: both;
+}
+
+/* THIS IS END OF FOOTER */
