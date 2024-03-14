@@ -140,6 +140,26 @@ video {
   background-repeat: no-repeat;
 }
 
+.leadership-section {
+  width: 295px;
+  float: left;
+  padding-left: 50px 50px;
+  text-align: center;
+  border: dotted black;
+  margin: 100px;
+  border-radius: 50px;
+}
+
+.leadership-title {
+  margin: 5px;
+  padding: 40px;
+  font-size: 50px;
+  color: #ff007c;
+  border-style: double;
+  border-radius: 10px;
+  text-align: center;
+}
+
 #kenia-section {
   background-color: olivedrab;
   margin: 10px;
@@ -166,16 +186,6 @@ video {
   margin: 10px;
   height: fit-content;
   padding: 20px;
-}
-
-.leadership-section {
-  width: 295px;
-  float: left;
-  padding-left: 50px 50px;
-  text-align: center;
-  border: dotted black;
-  margin: 100px;
-  border-radius: 50px;
 }
 
 .picsec {
@@ -211,8 +221,17 @@ footer {
 /* HOURS CSS */
 
 .hours-header {
+background-image: url("/images/hours-header.png");
+height: 450px;
 }
-
+.hours-table > tr, th, td {
+  border: 1px solid #121212;
+  border-collapse: collapse;
+}
+table {
+  width: 80%;
+  text-align: center;
+}
 /* CONTACT CSS */
 
 .contact-header {
@@ -260,6 +279,7 @@ footer {
 
 footer {
   clear: both;
+  background-color: lightgreen;
 }
 
 /* THIS IS END OF FOOTER */
