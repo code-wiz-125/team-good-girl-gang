@@ -143,6 +143,26 @@ video {
   background-repeat: no-repeat;
 }
 
+.leadership-section {
+  width: 295px;
+  float: left;
+  padding-left: 50px 50px;
+  text-align: center;
+  border: dotted black;
+  margin: 100px;
+  border-radius: 50px;
+}
+
+.leadership-title {
+  margin: 5px;
+  padding: 40px;
+  font-size: 50px;
+  color: #ff007c;
+  border-style: double;
+  border-radius: 10px;
+  text-align: center;
+}
+
 #kenia-section {
   background-color: olivedrab;
   margin: 10px;
@@ -171,16 +191,6 @@ video {
   padding: 20px;
 }
 
-.leadership-section {
-  width: 295px;
-  float: left;
-  padding-left: 50px 50px;
-  text-align: center;
-  border: dotted black;
-  margin: 100px;
-  border-radius: 50px;
-}
-
 .picsec {
   width: 200px;
   height: 250px;
@@ -195,8 +205,8 @@ video {
   padding: 10px;
   margin: 10px;
   border: none;
-border-style: hidden;
-background-color: gold;
+  border-style: hidden;
+  background-color: gold;
   width: 250px;
   border-radius: 0;
 }
@@ -205,10 +215,6 @@ button:hover {
   color: red;
   text-decoration: underline;
   background-color: white;
-}
-
-footer {
-  clear: both;
 }
 
 
