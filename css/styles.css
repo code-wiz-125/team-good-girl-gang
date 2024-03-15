@@ -306,37 +306,54 @@ footer {
 /* HOURS CSS */
 
 .hours-header {
-  background-image: url("/images/hours-header.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.5)), url("/images/hours-header.png");
+  background-position: center;
+  background-size: cover;
   height: 450px;
+
 }
 
-.hours-table > tr,
-th,
-td {
-  border: 1px solid #121212;
+.hours-h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.hours-header-p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.hours-section {
+  padding: 40px;
+  height: 400px;
+}
+
+.hours-table {  
+  margin-top: 50px;
+  margin-right: 15px;
+  width: 50%;
+  text-align: center;
+  float: left;
+  box-shadow: 0.5px 0.5px 3px #333;
   border-collapse: collapse;
 }
 
-th {
+.hours-th {
   background-color: #ff007c;
+  padding: 2px;
 }
 
-.hours-table {
-  width: 60%;
-  text-align: center;
-  float: left;
+.hours-tr:nth-child(even) {
+  border-bottom: 1px solid black;
 }
 
 .schedule-header {
   text-align: center;
 }
 
-.hours-h1 {
-  text-align: center;
-}
-
 .hours-p {
-  text-align: center;
+  text-align: left;
+  margin-top: 50px;
 }
 
 /* CONTACT CSS */
