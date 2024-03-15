@@ -20,6 +20,11 @@ together to find something we all like.
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* Start https://www.cursors-4u.com */
+  * {
+    cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym759.ani),
+      url(https://ani.cursors-4u.net/symbols/sym-8/sym759.png), auto !important;
+  } /* End https://www.cursors-4u.com */
 }
 
 .header {
@@ -217,7 +222,8 @@ tr.index-tr:nth-child(even) {
 /*LEADERSHIP CSS*/
 
 .leadership-header {
-  background-image: url("/images/ppg_leadership_header.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
+    url("/images/ppg_leadership_header.png");
   background-size: cover;
   height: 600px;
   color: #ff007c;
@@ -282,6 +288,10 @@ tr.index-tr:nth-child(even) {
   border-radius: 100px 0;
 }
 
+#leadership-pic-1 {
+  border-radius: 0 100px;
+}
+
 .leadership-button {
   text-decoration: underline;
   padding: 10px;
@@ -306,11 +316,14 @@ footer {
 /* HOURS CSS */
 
 .hours-header {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.5)), url("/images/hours-header.png");
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("/images/hours-header.png");
   background-position: center;
   background-size: cover;
   height: 450px;
-
 }
 
 .hours-h1 {
@@ -328,7 +341,7 @@ footer {
   height: 400px;
 }
 
-.hours-table {  
+.hours-table {
   margin-top: 50px;
   margin-right: 15px;
   width: 50%;
@@ -345,7 +358,7 @@ footer {
 
 .hours-tr:nth-child(even) {
   border-bottom: 1px solid black;
-  background-color:#f6b1d2;
+  background-color: #f6b1d2;
 }
 
 .schedule-header {
