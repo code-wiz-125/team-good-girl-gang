@@ -16,6 +16,12 @@ This .header css below is applied to all page headers.
 If you do not like the height edit, lets
 together to find something we all like.
 */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 .header {
   height: 450px;
   text-align: center;
@@ -48,23 +54,27 @@ a {
 a.nav:hover {
   color: #f6b1d2;
   font-size: larger;
+  transition-duration: 0.7s;
   text-decoration: underline;
 }
 
 a.nav-1:hover {
   color: lightgreen;
+  transition-duration: 0.7s;
   font-size: larger;
   text-decoration: underline;
 }
 
 a.nav-2:hover {
   color: #9ee1fa;
+  transition-duration: 0.7s;
   font-size: larger;
   text-decoration: underline;
 }
 
 a.nav-3:hover {
   color: lightgreen;
+  transition-duration: 0.7s;
   font-size: larger;
   text-decoration: underline;
 }
@@ -72,12 +82,24 @@ a.nav-3:hover {
 a.nav-4:hover {
   color: #f6b1d2;
   font-size: larger;
+  transition-duration: 0.7s;
   text-decoration: underline;
 }
 
 .footer {
+  margin: 0px;
   text-align: center;
-  margin-bottom: 10px;
+  height: 100px;
+  background-color: lightgreen;
+}
+
+.footer-content {
+  padding-top: 25px;
+}
+
+.footer-p {
+  padding-top: 10px;
+  font-size: 10px;
 }
 
 .footer-img {
@@ -91,42 +113,57 @@ a.nav-4:hover {
   border-radius: 5px;
 }
 
-.button {
+.top {
+  background-color: #9ee1fa;
+  border: 2px solid pink;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.top:hover {
+  background-color: lightgreen;
+  color: white;
+  font-size: larger;
+  transition-duration: 0.7s;
+  border-color: #9ee1fa;
 }
 
 /* INDEX CSS */
 
 .index-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
-  url(/images/index-header.png);
+    url(/images/index-header.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 h2 {
+  margin-top: 25px;
   font-size: 30px;
   font-style: oblique;
-  margin-top: 25px;
   letter-spacing: 10px;
+  text-shadow: 0.5px 0.5px black;
 }
 
 p.index {
+  position: relative;
+  top: 170px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-size: 20px;
-  position: relative;
-  top: 170px;
+  text-shadow: 0.5px 0.5px black;
 }
 
 .about-section {
   display: block;
-  height: 400px;
-  padding: 20px;
+  height: 450px;
+  padding: 40px;
+  background-color: #f6b1d2;
 }
 
 .about-title {
-  margin-bottom: 15px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -139,16 +176,19 @@ video {
 }
 
 p.about-us {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  width: 1200px;
   text-align: left;
-  display: block;
-  margin-block-start: 8em;
+  margin-block-start: 6em;
+}
+
+.services-section {
+  height: 400px;
+  padding: 40px;
 }
 
 .services-h1 {
   text-align: center;
+  margin-bottom: 50px;
+  font-size: xx-large;
 }
 
 .services-p {
@@ -157,9 +197,12 @@ p.about-us {
 
 .index-table {
   border-collapse: collapse;
-  width: 40%;
+  border-style: hidden;
+  width: 30%;
+  margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 80px;
   box-shadow: 0.5px 0.5px 3px #333;
 }
 
@@ -266,15 +309,18 @@ footer {
   background-image: url("/images/hours-header.png");
   height: 450px;
 }
+
 .hours-table > tr,
 th,
 td {
   border: 1px solid #121212;
   border-collapse: collapse;
 }
+
 th {
   background-color: #ff007c;
 }
+
 .hours-table {
   width: 60%;
   text-align: center;
@@ -284,14 +330,14 @@ th {
 .schedule-header {
   text-align: center;
 }
+
 .hours-h1 {
   text-align: center;
 }
+
 .hours-p {
   text-align: center;
 }
-  
-
 
 /* CONTACT CSS */
 
@@ -370,9 +416,9 @@ th {
 
 /* THIS IS START OF FOOTER */
 
-footer {
+/* footer {
   clear: both;
   background-color: lightgreen;
-}
+} */
 
 /* THIS IS END OF FOOTER */
