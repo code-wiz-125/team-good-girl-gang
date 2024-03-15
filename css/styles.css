@@ -282,6 +282,10 @@ tr.index-tr:nth-child(even) {
   border-radius: 100px 0;
 }
 
+#leadership-pic-1 {
+  border-radius: 0 100px;
+}
+
 .leadership-button {
   text-decoration: underline;
   padding: 10px;
