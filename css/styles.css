@@ -217,7 +217,7 @@ tr.index-tr:nth-child(even) {
 /*LEADERSHIP CSS*/
 
 .leadership-header {
-  background-image: url("/images/ppg_leadership_header.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("/images/ppg_leadership_header.png");
   background-size: cover;
   height: 600px;
   color: #ff007c;
