@@ -225,7 +225,7 @@ tr.index-tr:nth-child(even) {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
     url("/images/ppg_leadership_header.png");
   background-size: cover;
-  height: 600px;
+  height: 470px;
   color: #ff007c;
   text-align: center;
   background-repeat: no-repeat;
