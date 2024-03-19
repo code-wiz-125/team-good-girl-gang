@@ -137,7 +137,7 @@ a.nav-4:hover {
 
 .index-header {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-    url("images/index-header.png");
+    url("../images/index-header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -223,7 +223,7 @@ tr.index-tr:nth-child(even) {
 
 .leadership-header {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)),
-    url("images/ppg_leadership_header.png");
+    url("../images/ppg_leadership_header.png");
   background-size: cover;
   height: 470px;
   color: #ff007c;
@@ -320,7 +320,7 @@ footer {
       rgba(255, 255, 255, 0.25),
       rgba(0, 0, 0, 0.5)
     ),
-    url("images/hours-header.png");
+    url("../images/hours-header.png");
   background-position: center;
   background-size: cover;
   height: 450px;
@@ -386,7 +386,7 @@ footer {
 .contact-header {
   /* background-image: url("/images/Power-Phone.gif"), */
     /* url("/images/Power-contact-header3.png"); */
-  background-image: linear-gradient(rgba(230, 227, 242, 0.25), rgba(0, 0, 0, 0.5)), url("images/Power-contact-header3.png");
+  background-image: linear-gradient(rgba(230, 227, 242, 0.25), rgba(0, 0, 0, 0.5)), url("../images/Power-contact-header3.png");
   background-repeat: no-repeat;
   background-position: center, center;
   background-size: cover;
